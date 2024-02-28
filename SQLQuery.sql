@@ -53,3 +53,12 @@ CREATE TABLE user_sessions (
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 GO
+
+
+
+
+INSERT INTO users (username, password_hash, role, balance) 
+VALUES 
+('Benutzername1', 'PasswortHash1', 'admin', 100), 
+('Benutzername2', 'PasswortHash2', 'user', 50),
+('Benutzername3', 'PasswortHash3', 'user', 75);
