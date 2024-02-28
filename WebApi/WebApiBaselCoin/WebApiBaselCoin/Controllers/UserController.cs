@@ -2,7 +2,9 @@
 using WebApiBaselCoin.Models;
 using System.Data.SqlClient;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace WebApiBaselCoin.Controllers
 {
@@ -11,125 +13,124 @@ namespace WebApiBaselCoin.Controllers
     public class UserController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-        private readonly string connectionString;
+        private readonly Context _context;
 
-        public UserController(IConfiguration configuration)
+        public UserController(IConfiguration configuration, Context context)
         {
             _configuration = configuration;
-            connectionString = _configuration.GetConnectionString("DefaultConnection"); // Ensure you have this in your appsettings.json
+            _context = context;
         }
 
         [HttpGet]
         [Authorize]
-        public IActionResult GetAllUsers()
+        public async Task<IActionResult> GetAllUsers()
         {
-            List<User> users = new List<User>();
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            var users = await _context.Users.ToListAsync();
+
+            // Log action
+            var log = new AppLog
             {
-                SqlCommand command = new SqlCommand("SELECT * FROM users;", connection);
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    users.Add(new User
-                    {
-                        Id = (int)reader["id"],
-                        Username = reader["username"].ToString(),
-                        Password_Hash = reader["password_hash"].ToString(),
-                        Role = reader["role"].ToString(),
-                        Balance = (decimal)reader["balance"]
-                    });
-                }
-                connection.Close();
-            }
+                EventDate = DateTime.Now,
+                EventType = "RetrieveAllUsers",
+                UserId = 0, // 0 or a specific admin ID if needed
+                Action = "GetAllUsers"
+            };
+            _context.AppLogs.Add(log);
+            await _context.SaveChangesAsync();
+
             return Ok(users);
         }
 
         [HttpGet("{id}")]
         [Authorize]
-        public IActionResult GetUserById(int id)
+        public async Task<IActionResult> GetUserById(int id)
         {
-            User user = null;
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlCommand command = new SqlCommand($"SELECT * FROM users WHERE id = @id;", connection);
-                command.Parameters.AddWithValue("@id", id);
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                if (reader.Read())
-                {
-                    user = new User
-                    {
-                        Id = (int)reader["id"],
-                        Username = reader["username"].ToString(),
-                        Password_Hash = reader["password_hash"].ToString(),
-                        Role = reader["role"].ToString(),
-                        Balance = (decimal)reader["balance"]
-                    };
-                }
-                connection.Close();
-            }
+            var user = await _context.Users.FindAsync(id);
             if (user == null) return NotFound();
+
+            // Log action
+            var log = new AppLog
+            {
+                EventDate = DateTime.Now,
+                EventType = "RetrieveUser",
+                UserId = id,
+                Action = $"GetUserById: {id}"
+            };
+            _context.AppLogs.Add(log);
+            await _context.SaveChangesAsync();
+
             return Ok(user);
         }
 
         [HttpPost]
         [Authorize]
-        public IActionResult CreateUser([FromBody] User newUser)
+        public async Task<IActionResult> CreateUser([FromBody] User newUser)
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            _context.Users.Add(newUser);
+            await _context.SaveChangesAsync();
+
+            // Log action
+            var log = new AppLog
             {
-                SqlCommand command = new SqlCommand($"INSERT INTO users (username, password_hash, role, balance) VALUES (@username, @password_hash, @role, @balance);", connection);
-                command.Parameters.AddWithValue("@username", newUser.Username);
-                command.Parameters.AddWithValue("@password_hash", newUser.Password_Hash);
-                command.Parameters.AddWithValue("@role", newUser.Role);
-                command.Parameters.AddWithValue("@balance", newUser.Balance);
+                EventDate = DateTime.Now,
+                EventType = "CreateUser",
+                UserId = newUser.Id,
+                Action = "UserCreated"
+            };
+            _context.AppLogs.Add(log);
+            await _context.SaveChangesAsync();
 
-                connection.Open();
-                int result = command.ExecuteNonQuery();
-                connection.Close();
-
-                if (result < 0) return StatusCode(500, "An error occurred while creating the user.");
-            }
             return Ok();
         }
 
         [HttpPut("{id}")]
         [Authorize]
-        public IActionResult UpdateUser(int id, [FromBody] User user)
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] User user)
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            var userToUpdate = await _context.Users.FindAsync(id);
+            if (userToUpdate == null) return NotFound();
+
+            userToUpdate.Username = user.Username;
+            userToUpdate.Password_Hash = user.Password_Hash;
+            userToUpdate.Role = user.Role;
+            userToUpdate.Balance = user.Balance;
+            await _context.SaveChangesAsync();
+
+            // Log action
+            var log = new AppLog
             {
-                SqlCommand command = new SqlCommand($"UPDATE users SET username = @username, password_hash = @password_hash, role = @role, balance = @balance WHERE id = @id;", connection);
-                command.Parameters.AddWithValue("@id", id);
-                command.Parameters.AddWithValue("@username", user.Username);
-                command.Parameters.AddWithValue("@password_hash", user.Password_Hash);
-                command.Parameters.AddWithValue("@role", user.Role);
-                command.Parameters.AddWithValue("@balance", user.Balance);
+                EventDate = DateTime.Now,
+                EventType = "UpdateUser",
+                UserId = id,
+                Action = $"UserUpdated: {id}"
+            };
+            _context.AppLogs.Add(log);
+            await _context.SaveChangesAsync();
 
-                connection.Open();
-                int result = command.ExecuteNonQuery();
-                connection.Close();
-
-                if (result < 0) return StatusCode(500, "An error occurred while updating the user.");
-            }
             return Ok();
         }
 
         [HttpDelete("{id}")]
         [Authorize]
-        public IActionResult DeleteUser(int id)
+        public async Task<IActionResult> DeleteUser(int id)
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlCommand command = new SqlCommand($"DELETE FROM users WHERE id = @id;", connection);
-                command.Parameters.AddWithValue("@id", id);
-                connection.Open();
-                int result = command.ExecuteNonQuery();
-                connection.Close();
+            var user = await _context.Users.FindAsync(id);
+            if (user == null) return NotFound();
 
-                if (result < 0) return StatusCode(500, "An error occurred while deleting the user.");
-            }
+            _context.Users.Remove(user);
+            await _context.SaveChangesAsync();
+
+            // Log action
+            var log = new AppLog
+            {
+                EventDate = DateTime.Now,
+                EventType = "DeleteUser",
+                UserId = id,
+                Action = $"UserDeleted: {id}"
+            };
+            _context.AppLogs.Add(log);
+            await _context.SaveChangesAsync();
+
             return Ok();
         }
     }
