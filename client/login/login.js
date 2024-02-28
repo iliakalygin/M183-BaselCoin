@@ -23,9 +23,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
             
             // Redirect based on adminState
             if(data.adminState) {
-                window.location.href = 'admin.html';
+                window.location.href = '../session/admin.html';
             } else {
-                window.location.href = 'user.html';
+                window.location.href = '../session/user.html';
             }
         } else {
             alert('Login failed. Please check your credentials and try again.');
