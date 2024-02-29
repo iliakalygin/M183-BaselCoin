@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApiBaselCoin.Models;
-using System.Data.SqlClient;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,125 +9,82 @@ namespace WebApiBaselCoin.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly IConfiguration _configuration;
-        private readonly string connectionString;
+        private readonly Context _context;
 
-        public UserController(IConfiguration configuration)
+        public UserController(Context context)
         {
-            _configuration = configuration;
-            connectionString = _configuration.GetConnectionString("DefaultConnection"); // Ensure you have this in your appsettings.json
+            _context = context;
         }
 
+        // Verwendung von EF Core's ToListAsync, um Daten sicher abzufragen und SQL-Injection zu vermeiden
         [HttpGet]
         [Authorize]
-        public IActionResult GetAllUsers()
+        public async Task<IActionResult> GetAllUsers()
         {
-            List<User> users = new List<User>();
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlCommand command = new SqlCommand("SELECT * FROM users;", connection);
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    users.Add(new User
-                    {
-                        Id = (int)reader["id"],
-                        Username = reader["username"].ToString(),
-                        Role = reader["role"].ToString(),
-                        Balance = (decimal)reader["balance"]
-                    });
-                }
-                connection.Close();
-            }
+            var users = await _context.Users.ToListAsync();
             return Ok(users);
         }
 
+        // Verwendung von EF Core's FindAsync für parameterisierte Abfragen, die vor SQL-Injection schützen
         [HttpGet("{id}")]
         [Authorize]
-        public IActionResult GetUserById(int id)
+        public async Task<IActionResult> GetUserById(int id)
         {
-            User user = null;
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlCommand command = new SqlCommand($"SELECT * FROM users WHERE id = @id;", connection);
-                command.Parameters.AddWithValue("@id", id);
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                if (reader.Read())
-                {
-                    user = new User
-                    {
-                        Id = (int)reader["id"],
-                        Username = reader["username"].ToString(),
-                        Role = reader["role"].ToString(),
-                        Balance = (decimal)reader["balance"]
-                    };
-                }
-                connection.Close();
-            }
+            var user = await _context.Users.FindAsync(id);
             if (user == null) return NotFound();
             return Ok(user);
         }
 
+        // Verwendung von EF Core zum Hinzufügen von Daten, bietet Schutz vor SQL-Injection
         [HttpPost]
         [Authorize]
-        public IActionResult CreateUser([FromBody] User newUser)
+        public async Task<IActionResult> CreateUser([FromBody] User newUser)
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlCommand command = new SqlCommand($"INSERT INTO users (username, password_hash, role, balance) VALUES (@username, @password_hash, @role, @balance);", connection);
-                command.Parameters.AddWithValue("@username", newUser.Username);
-                command.Parameters.AddWithValue("@password_hash", newUser.Password_Hash);
-                command.Parameters.AddWithValue("@role", newUser.Role);
-                command.Parameters.AddWithValue("@balance", newUser.Balance);
-
-                connection.Open();
-                int result = command.ExecuteNonQuery();
-                connection.Close();
-
-                if (result < 0) return StatusCode(500, "An error occurred while creating the user.");
-            }
-            return Ok();
+            _context.Users.Add(newUser);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction(nameof(GetUserById), new { id = newUser.Id }, newUser);
         }
 
+        // Verwendung von EF Core zum Aktualisieren von Daten, schützt vor SQL-Injection
         [HttpPut("{id}")]
         [Authorize]
-        public IActionResult UpdateUser(int id, [FromBody] User user)
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] User user)
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            if (id != user.Id) return BadRequest();
+
+            _context.Entry(user).State = EntityState.Modified;
+
+            try
             {
-                SqlCommand command = new SqlCommand($"UPDATE users SET username = @username, password_hash = @password_hash, role = @role, balance = @balance WHERE id = @id;", connection);
-                command.Parameters.AddWithValue("@id", id);
-                command.Parameters.AddWithValue("@username", user.Username);
-                command.Parameters.AddWithValue("@password_hash", user.Password_Hash);
-                command.Parameters.AddWithValue("@role", user.Role);
-                command.Parameters.AddWithValue("@balance", user.Balance);
-
-                connection.Open();
-                int result = command.ExecuteNonQuery();
-                connection.Close();
-
-                if (result < 0) return StatusCode(500, "An error occurred while updating the user.");
+                await _context.SaveChangesAsync();
             }
-            return Ok();
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Users.Any(e => e.Id == id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
         }
 
+        // Verwendung von EF Core zum Löschen von Daten, bietet ebenfalls Schutz vor SQL-Injection
         [HttpDelete("{id}")]
         [Authorize]
-        public IActionResult DeleteUser(int id)
+        public async Task<IActionResult> DeleteUser(int id)
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlCommand command = new SqlCommand($"DELETE FROM users WHERE id = @id;", connection);
-                command.Parameters.AddWithValue("@id", id);
-                connection.Open();
-                int result = command.ExecuteNonQuery();
-                connection.Close();
+            var user = await _context.Users.FindAsync(id);
+            if (user == null) return NotFound();
 
-                if (result < 0) return StatusCode(500, "An error occurred while deleting the user.");
-            }
-            return Ok();
+            _context.Users.Remove(user);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {}
+    "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {
+    "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+        "projectUniqueName": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
         "projectName": "WebApiBaselCoin",
-        "projectPath": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
-        "packagesPath": "C:\\Users\\Ilia Kalygin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\obj\\",
+        "projectPath": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+        "packagesPath": "C:\\Users\\aimoa\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ilia Kalygin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aimoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
