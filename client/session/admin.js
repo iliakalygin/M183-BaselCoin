@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function fetchUsers() {
         // Simulating a fetch call to get users
         // Replace the URL with your actual endpoint
-        fetch('https://yourapi.com/api/users', {
+        fetch('https://localhost:7108/User', {
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${jwt}`
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Simulated fetch call for adding a user
         // Replace URL with your actual endpoint and adjust the request as needed
-        fetch('https://yourapi.com/api/addUser', {
+        fetch('https://localhost:7108/User', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -4,7 +4,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
   
-    fetch('YOUR_API_ENDPOINT', {
+    fetch('https://localhost:7108/api/Account/login', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -19,7 +19,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         if(data.jwt) {
             localStorage.setItem('jwt', data.jwt);
             
-            if(data.adminState) {
+            if(data.role == "admin") {
                 window.location.href = '../session/admin.html';
             } else {
                 window.location.href = '../session/user.html';

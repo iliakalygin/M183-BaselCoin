@@ -4601,23 +4601,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ilia Kalygin\\.nuget\\packages\\": {},
+    "C:\\Users\\Giorgio IPSO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+      "projectUniqueName": "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
       "projectName": "WebApiBaselCoin",
-      "projectPath": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
-      "packagesPath": "C:\\Users\\Ilia Kalygin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\obj\\",
+      "projectPath": "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+      "packagesPath": "C:\\Users\\Giorgio IPSO\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ilia Kalygin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Giorgio IPSO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4639,11 +4639,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4712,7 +4707,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

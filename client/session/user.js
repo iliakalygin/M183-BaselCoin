@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (!jwt) {
         window.location.href = '../login/login.html';
     } else {
-        fetch('https://example.com/api/account', { // Replace with your actual API endpoint
+        fetch('https://localhost:7108/User', { // Replace with your actual API endpoint
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${jwt}`,
