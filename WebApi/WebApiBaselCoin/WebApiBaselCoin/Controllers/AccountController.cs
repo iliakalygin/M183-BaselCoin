@@ -10,29 +10,24 @@ namespace WebApiBaselCoin.Controllers
     public class AccountController : ControllerBase
     {
         private readonly ITokenService _tokenService;
-        private readonly Context _context; // Hinzufügen des Context
+        private readonly Context _context;
 
-        // Konstruktor mit Context und TokenService Injektion
         public AccountController(ITokenService tokenService, Context context)
         {
             _tokenService = tokenService;
-            _context = context; // Initialisieren des Context
+            _context = context;
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(AuthenticateUser model)
         {
-            var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Username == model.Username && u.Password_Hash == model.Password);
+            var employee = await _context.Users.FirstOrDefaultAsync(e => e.Username == model.Username && e.Password_Hash == model.Password);
 
-            if (user == null)
+            if (employee == null)
                 return Unauthorized("Invalid Credentials");
 
-            var token = _tokenService.CreateToken(user.Username); // Erstellen des Tokens
-            var userType = user.Role.Equals("admin") ? "Admin" : "User"; // Bestimmen des Benutzertyps
-
-            return new JsonResult(new { token = token, userType = userType }); // Rückgabe des Tokens und des Benutzertyps
+            var token = _tokenService.CreateToken(employee.Username);
+            return new JsonResult(new { userName = employee.Username, token = token });
         }
-
     }
 }

@@ -2,6 +2,7 @@
 using WebApiBaselCoin.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace WebApiBaselCoin.Controllers
 {
@@ -16,26 +17,39 @@ namespace WebApiBaselCoin.Controllers
             _context = context;
         }
 
-        // Verwendung von EF Core's ToListAsync, um Daten sicher abzufragen und SQL-Injection zu vermeiden
         [HttpGet]
         [Authorize]
         public async Task<IActionResult> GetAllUsers()
         {
+            // Extrahieren des Tokens aus dem Authorization-Header
+            var token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            // Token kann jetzt verwendet werden, z.B. um Claims zu extrahieren
+            var handler = new JwtSecurityTokenHandler();
+            var jsonToken = handler.ReadToken(token) as JwtSecurityToken;
+
+            // Ihre Logik hier...
+
             var users = await _context.Users.ToListAsync();
             return Ok(users);
         }
 
-        // Verwendung von EF Core's FindAsync für parameterisierte Abfragen, die vor SQL-Injection schützen
         [HttpGet("{id}")]
         [Authorize]
         public async Task<IActionResult> GetUserById(int id)
         {
+            // Extrahieren des Tokens aus dem Authorization-Header
+            var token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            // Token kann jetzt verwendet werden, z.B. um Claims zu extrahieren
+            var handler = new JwtSecurityTokenHandler();
+            var jsonToken = handler.ReadToken(token) as JwtSecurityToken;
+
+            // Ihre Logik hier...
+
             var user = await _context.Users.FindAsync(id);
             if (user == null) return NotFound();
             return Ok(user);
         }
 
-        // Verwendung von EF Core zum Hinzufügen von Daten, bietet Schutz vor SQL-Injection
         [HttpPost]
         [Authorize]
         public async Task<IActionResult> CreateUser([FromBody] User newUser)
@@ -45,7 +59,6 @@ namespace WebApiBaselCoin.Controllers
             return CreatedAtAction(nameof(GetUserById), new { id = newUser.Id }, newUser);
         }
 
-        // Verwendung von EF Core zum Aktualisieren von Daten, schützt vor SQL-Injection
         [HttpPut("{id}")]
         [Authorize]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] User user)
@@ -73,7 +86,6 @@ namespace WebApiBaselCoin.Controllers
             return NoContent();
         }
 
-        // Verwendung von EF Core zum Löschen von Daten, bietet ebenfalls Schutz vor SQL-Injection
         [HttpDelete("{id}")]
         [Authorize]
         public async Task<IActionResult> DeleteUser(int id)
