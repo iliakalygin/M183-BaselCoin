@@ -22,13 +22,17 @@ namespace WebApiBaselCoin.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(AuthenticateUser model)
         {
-            var employee = await _context.Users
-                .FirstOrDefaultAsync(e => e.Username == model.Username && e.Password_Hash == model.Password);
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Username == model.Username && u.Password_Hash == model.Password);
 
-            if (employee == null)
+            if (user == null)
                 return Unauthorized("Invalid Credentials");
 
-            return new JsonResult(new { userName = model.Username, token = _tokenService.CreateToken(model.Username) });
+            var token = _tokenService.CreateToken(user.Username); // Erstellen des Tokens
+            var userType = user.Role.Equals("admin") ? "Admin" : "User"; // Bestimmen des Benutzertyps
+
+            return new JsonResult(new { token = token, userType = userType }); // Rückgabe des Tokens und des Benutzertyps
         }
+
     }
 }

@@ -1,62 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\",
+  "WorkspaceRootPath": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\models\\authenticateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\models\\authenticateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\models\\applog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\models\\applog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\webapibaselcoin.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\webapibaselcoin.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\github\\homepage\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\webapibaselcoin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\models\\authenticateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\models\\authenticateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\models\\applog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\models\\applog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\webapibaselcoin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\webapibaselcoin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\webapibaselcoin.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\webapibaselcoin.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|c:\\users\\ilia kalygin\\documents\\github\\m183-baselcoin\\webapi\\webapibaselcoin\\webapibaselcoin\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B301FA7A-076B-4FEE-AC74-1F9EA686F0D3}|WebApiBaselCoin\\WebApiBaselCoin.csproj|solutionrelative:webapibaselcoin\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,12 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 22,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -130,175 +126,185 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Services\\TokenService.cs",
-              "RelativeToolTip": "WebApiBaselCoin\\Services\\TokenService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwC0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:28:25.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Services\\ITokenService.cs",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\Services\\ITokenService.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Services\\ITokenService.cs",
-              "RelativeToolTip": "WebApiBaselCoin\\Services\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:28:15.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebApiBaselCoin\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:26:44.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AuthenticateUser.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\AuthenticateUser.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\AuthenticateUser.cs",
               "RelativeDocumentMoniker": "WebApiBaselCoin\\Models\\AuthenticateUser.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\AuthenticateUser.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\AuthenticateUser.cs",
               "RelativeToolTip": "WebApiBaselCoin\\Models\\AuthenticateUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:26:03.281Z",
+              "WhenOpened": "2024-02-29T09:48:07.758Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebApiBaselCoin\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwBUAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T11:50:35.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\appsettings.json",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\appsettings.json",
-              "RelativeToolTip": "WebApiBaselCoin\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-28T11:47:51.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Context.cs",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\Context.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Context.cs",
-              "RelativeToolTip": "WebApiBaselCoin\\Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:58:49.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WebApiBaselCoin.csproj",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\WebApiBaselCoin.csproj",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
-              "RelativeToolTip": "WebApiBaselCoin\\WebApiBaselCoin.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-28T12:28:13.606Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppLog.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\AppLog.cs",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\Models\\AppLog.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\AppLog.cs",
-              "RelativeToolTip": "WebApiBaselCoin\\Models\\AppLog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Services\\TokenService.cs",
+              "RelativeToolTip": "WebApiBaselCoin\\Services\\TokenService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwC0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T11:03:38.907Z"
+              "WhenOpened": "2024-02-29T09:48:07.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "WebApiBaselCoin.http",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.http",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\WebApiBaselCoin.http",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.http",
-              "RelativeToolTip": "WebApiBaselCoin\\WebApiBaselCoin.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-02-28T14:29:02.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebApiBaselCoin\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-28T14:29:12.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\UserSession.cs",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\Models\\UserSession.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\UserSession.cs",
-              "RelativeToolTip": "WebApiBaselCoin\\Models\\UserSession.cs",
+              "Title": "AppLog.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\AppLog.cs",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\Models\\AppLog.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\AppLog.cs",
+              "RelativeToolTip": "WebApiBaselCoin\\Models\\AppLog.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T11:39:17.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Program.cs",
-              "RelativeDocumentMoniker": "WebApiBaselCoin\\Program.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Program.cs",
-              "RelativeToolTip": "WebApiBaselCoin\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T10:59:27.765Z"
+              "WhenOpened": "2024-02-29T09:48:07.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\User.cs",
               "RelativeDocumentMoniker": "WebApiBaselCoin\\Models\\User.cs",
-              "ToolTip": "C:\\Github\\Homepage\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\User.cs",
               "RelativeToolTip": "WebApiBaselCoin\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T11:03:00.295Z"
+              "WhenOpened": "2024-02-29T09:48:07.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\Services\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Services\\ITokenService.cs",
+              "RelativeToolTip": "WebApiBaselCoin\\Services\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T09:48:07.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Context.cs",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\Context.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Context.cs",
+              "RelativeToolTip": "WebApiBaselCoin\\Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T09:48:07.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\Program.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Program.cs",
+              "RelativeToolTip": "WebApiBaselCoin\\Program.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAwGUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T09:48:07.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\appsettings.json",
+              "RelativeToolTip": "WebApiBaselCoin\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-29T09:48:07.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApiBaselCoin\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T09:48:07.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApiBaselCoin\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAuwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T09:48:07.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebApiBaselCoin.http",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.http",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\WebApiBaselCoin.http",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.http",
+              "RelativeToolTip": "WebApiBaselCoin\\WebApiBaselCoin.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-02-29T09:48:07.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebApiBaselCoin.csproj",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\WebApiBaselCoin.csproj",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+              "RelativeToolTip": "WebApiBaselCoin\\WebApiBaselCoin.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-29T09:48:07.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApiBaselCoin\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-29T09:48:07.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\UserSession.cs",
+              "RelativeDocumentMoniker": "WebApiBaselCoin\\Models\\UserSession.cs",
+              "ToolTip": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\Models\\UserSession.cs",
+              "RelativeToolTip": "WebApiBaselCoin\\Models\\UserSession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T09:48:07.934Z"
             }
           ]
         }
