@@ -3,8 +3,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
-
-    // Replace 'YOUR_API_ENDPOINT' with the actual endpoint you are using
+  
     fetch('YOUR_API_ENDPOINT', {
         method: 'POST',
         headers: {
@@ -18,21 +17,24 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     .then(response => response.json())
     .then(data => {
         if(data.jwt) {
-            // Save the JWT to localStorage
             localStorage.setItem('jwt', data.jwt);
             
-            // Redirect based on adminState
             if(data.adminState) {
                 window.location.href = '../session/admin.html';
             } else {
                 window.location.href = '../session/user.html';
             }
         } else {
-            alert('Login failed. Please check your credentials and try again.');
+            // Display error message
+            const errorMessageDiv = document.getElementById('errorMessage');
+            errorMessageDiv.style.display = 'block';
+            errorMessageDiv.textContent = 'Login failed. Please check your credentials and try again.';
         }
     })
     .catch((error) => {
-        console.error('Error:', error);
-        alert('An error occurred. Please try again later.');
+        const errorMessageDiv = document.getElementById('errorMessage');
+        errorMessageDiv.style.display = 'block';
+        errorMessageDiv.textContent = 'An error occurred. Please try again later.';
     });
-});
+  });
+  

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\UI\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {}
+    "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {}
   },
   "projects": {
-    "D:\\Github\\UI\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {
+    "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\UI\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+        "projectUniqueName": "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
         "projectName": "WebApiBaselCoin",
-        "projectPath": "D:\\Github\\UI\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
-        "packagesPath": "C:\\Users\\HansO\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\UI\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\obj\\",
+        "projectPath": "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+        "packagesPath": "C:\\Users\\Giorgio IPSO\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HansO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Giorgio IPSO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -103,24 +99,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -129,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
