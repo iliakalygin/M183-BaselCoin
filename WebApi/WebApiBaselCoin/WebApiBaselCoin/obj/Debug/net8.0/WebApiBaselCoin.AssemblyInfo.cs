@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiBaselCoin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74614222d672e81a5e37a0d6b8570313ac73932a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbbb44d04b9071264189487f8d631b5e9bf55c78")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApiBaselCoin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApiBaselCoin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

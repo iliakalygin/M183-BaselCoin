@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {}
+    "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {}
   },
   "projects": {
-    "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {
+    "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+        "projectUniqueName": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
         "projectName": "WebApiBaselCoin",
-        "projectPath": "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
-        "packagesPath": "C:\\Users\\Giorgio IPSO\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\baselCoin\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\obj\\",
+        "projectPath": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\WebApiBaselCoin.csproj",
+        "packagesPath": "C:\\Users\\Ilia Kalygin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ilia Kalygin\\Documents\\GitHub\\M183-BaselCoin\\WebApi\\WebApiBaselCoin\\WebApiBaselCoin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Giorgio IPSO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ilia Kalygin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -39,11 +39,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -107,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
